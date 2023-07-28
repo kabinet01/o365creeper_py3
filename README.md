@@ -1,4 +1,6 @@
-# o365creeper
+# o365creeper_py3
+
+A Python3 implementation of o365creeper.
 
 This is a simple Python script used to validate email accounts that belong to Office 365 tenants. 
 This script takes either a single email address or a list of email addresses as input, 
@@ -8,8 +10,8 @@ parameter to be set to 0 for a valid account. Invalid accounts will return a 1.
 ## Usage
 
 This script depends on the Python "Requests" library. The script can take a single email address
-with the -e parameter or a list of email addresses, one per line, with the -f parameter. 
-Additionally, the script can output valid email addressesto a file with the -o parameter.
+with the -e parameter or a list of email addresses, one per line, with the `-f` parameter. 
+Additionally, the script can output valid email addressesto a file with the `-o` parameter.
 
 Installation:
 
